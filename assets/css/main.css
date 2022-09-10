@@ -39,3 +39,15 @@
     background-size: cover;
 
   }
+
+
+
+  .section-text:first-child {
+    text-indent: 1em;
+  }
+
+  /*-------------section-hero-----------*/
+
+  .section-hero {
+    background-image: url(../images/kitty-bacground.jpg);
+  }
