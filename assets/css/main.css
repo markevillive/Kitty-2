@@ -17,6 +17,37 @@
   font-size: 40px;
   color: red;
 }
+
+.kitty-brand:hover {
+  color: aliceblue;
+}
+
+.kitty-brand:active {
+  color: aliceblue;
+}
+
+.kitty-brand:focus  {
+  color: aliceblue;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-link:active  {
+  color: red;
+}
+
+.nav-link:focus {
+  color: red;
+}
+
+
+
 /*------------SECTIONS------------*/
   .secton-header  {
     padding: 10px 20px;
@@ -59,3 +90,23 @@
   .section-hero {
     background-image: url(../images/kitty-bacground.jpg);
   }
+
+   /*-------------section-contacts-----------*/
+
+
+    /*-------------footer-----------*/
+
+    .footer-logo__brand {
+      font-family: "Armalite-rifle";
+      font-size: 2rem;
+      color: red;
+      text-decoration: none;
+    }
+
+    .footer-logo__brand:hover {
+      color: aliceblue;
+    }
+
+    .footer-logo__brand:active {
+      color: aliceblue;
+    }
