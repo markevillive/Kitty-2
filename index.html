@@ -12,7 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/baguetteBox.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
@@ -69,6 +69,7 @@
   </header>
   <!-----------End header------------>
   <main class="site-main">
+    <!-----------hero------------>
     <section id="hero" class="kitty-section section-hero">
       <div class="container">
         <header class="secton-header">
@@ -87,27 +88,46 @@
 
         </header>
         <div class="sction-hero__content">
-          <p class="section-hero__text">
+          <p class="section-text section-hero__text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, minima. Incidunt vero natus quasi sunt,
             commodi soluta qui fuga ab pariatur totam non vitae nesciunt! Laborum cum voluptates minima unde.
           </p>
-          <p class="section-hero__text">
+          <p class="section-text section-hero__text">
             Sem viverra aliquet eget sit amet tellus cras. Blandit cursus risus at ultrices mi tempus. Feugiat in ante
             metus dictum at. Cras ornare arcu dui vivamus. Lorem ipsum dolor sit amet consectetur adipiscing. Sagittis
             purus sit amet volutpat consequat. Nunc lobortis mattis aliquam faucibus. Cras ornare arcu dui vivamus arcu
             felis bibendum ut tristique. Nisi lacus sed viverra tellus in. Venenatis tellus in metus vulputate eu
             scelerisque. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
           </p>
-          <p class="section-hero__text">
+          <p class="section-text section-hero__text">
             Приятно, граждане, наблюдать, как представители современных социальных резервов и по сей день остаются
             уделом либералов, которые жаждут быть обнародованы. Каждый из нас понимает очевидную вещь: реализация
             намеченных плановых заданий напрямую зависит от прогресса профессионального сообщества. И нет сомнений, что
             действия представителей оппозиции призывают нас к новым свершениям, которые, в свою очередь, должны быть
             объективно рассмотрены соответствующими инстанциями.
           </p>
+          <p class="section-text section-hero__text">
+            Равным образом постоянное информационно-пропогандистское обеспечение нашей деятельности в значительной
+            степени обуславливает создание экономической целесообразности принимаемых изменений. Повседневная практика
+            показывает, что курс на социально-ориентированный национальный проект в значительной степени обуславливает
+            создание новых принципов формирования материально-технической и кадровой базы. Таким образом дальнейшее
+            развитие различных форм деятельности в значительной степени обуславливает создание соответствующих условий
+            активизации. С другой стороны высокотехнологичная концепция общественной системы обеспечивает широкому кругу
+            специалистов прогресса профессионального общества. Для современного мира постоянный количественный рост и
+            сфера нашей активности позволяет оценить значение представляет собой интересный эксперимент поэтапного и
+            последовательного развития общества. Прежде всего выбранный нами инновационный путь напрямую зависит от
+            дальнейших направлений развития. Задача организации, в особенности же курс на социально-ориентированный
+            национальный проект играет важную роль в формировании системы массового участия. Значимость этих проблем
+            настолько очевидна, что постоянный количественный рост и сфера нашей активности проверки влечёт за собой
+            интересный процесс внедрения модернизации прогресса профессионального общества. Повседневная практика
+            показывает, что выбранный нами инновационный путь требует от нас анализа укрепления демократической системы.
+            Не следует, однако, забывать, что рамки и место обучения кадров требует анализа форм воздействия.
+          </p>
         </div>
       </div>
     </section>
+    <!-----------end-hero------------>
+    <!-----------about------------>
     <section id="about" class="kitty-section section-about">
       <div class="container">
         <header class="secton-header">
@@ -127,6 +147,8 @@
         </header>
       </div>
     </section>
+    <!-----------end-about------------>
+    <!-----------blog------------>
     <section id="blog" class="kitty-section section-blog">
       <div class="container">
         <header class="secton-header">
@@ -136,6 +158,7 @@
         </header>
       </div>
     </section>
+    <!-----------end-blog------------>
     <section id="books" class="kitty-section section-books">
       <div class="container">
         <header class="secton-header">
@@ -199,6 +222,7 @@
         </div>
       </div>
     </section>
+    <!-----------contacts------------>
     <section id="contacts" class="kitty-section section-contacts">
       <div class="container">
         <header class="secton-header">
@@ -212,7 +236,7 @@
           </div>
           <div class="col-lg-4 col-sm-12">
             <h3 class="section-contacts__form-title">Форма для обратной связи</h3>
-            <form action="">
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -220,7 +244,7 @@
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                <label for="exampleFormControlInput2" class="form-label">Your phone</label>
                 <input type="phone" class="form-control" id="exampleFormControlInput2"
                   placeholder="your phone (optional)">
                 <div id="phoneHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -243,6 +267,7 @@
         </div>
       </div>
     </section>
+    <!-----------end-contacts------------>
   </main>
   <footer class="main-footer">
     <div class="container">
@@ -288,6 +313,7 @@
       </div>
 
     </div>
+    <!-----------end-container------------>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
