@@ -1,6 +1,6 @@
 @font-face  {
-  font-family: "Edo";
-  src: url(../fonts/edo.woff2) format("woff2"), url(../fonts/edo.woff) format("woff");
+  font-family: "Armalite-rifle";
+  src: url(../fonts/armalite-rifle.woff2) format("woff2"), url(../fonts/armalite-rifle.woff) format("woff");
   font-style: normal;
   font-weight: normal;
    }
@@ -8,7 +8,16 @@
    p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
     color: aliceblue;
   }
-
+  body  {
+    background-color: #222;
+  }
+/*------------HEADER------------*/
+.kitty-brand  {
+  font-family: "Armalite-rifle";
+  font-size: 40px;
+  color: red;
+}
+/*------------SECTIONS------------*/
   .secton-header  {
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, .5);
@@ -16,7 +25,7 @@
 
   .section-title  {
     font-size: 45px;
-    font-family: 'Edo';
+    font-family: 'Armalite-rifle';
     color: red;
   }
 
@@ -33,7 +42,6 @@
 
   .kitty-section  {
     min-height: 1080px;
-    background-color: #222;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
