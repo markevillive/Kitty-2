@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "Edo";
+    src: url(..fonts/edo.woff2) format("woff2"), url(..fonts/edo.woff) format("woff");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  body  {
+    font-family: 'Alexandria', sans-serif !important;
+    color: #333;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Edo";
+    color: red;
+  }
+  a, a:hover, a:focus, a:active{
+    color: inherit;
+    text-decoration: none;
+  }
+
+
+
+ .navbar-dark .kitty-navbar-brand   {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: "Edo";
+    color: red ;
+  }
+  .navbar-dark .kitty-navbar-brand .navbar-brand__white {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #fff;
+    font-size: 1.25rem;
+  }
+
+  .section-title  {
+    font-size: 3.5rem;
+  }
+
+  .section-default  {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  /*------------hero------------*/
+
+  .section-hero {
+    padding-top: 250px;
+    padding-bottom: 450px;
+    background-image: url("../img/about-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .section-hero__jumbotron  {
+    margin-bottom: 0;
+    
+    
+  }
+
+  /*------------blog------------*/
+
+  
