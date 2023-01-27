@@ -15,7 +15,9 @@
     text-decoration: none;
   }
 
-
+  .flex {
+    display: flex;
+  }
 
  .navbar-dark .kitty-navbar-brand   {
     font-size: 2rem;
@@ -56,6 +58,56 @@
     
   }
 
+  /*------------about------------*/
+
+  .section-about__blockquote {
+    position: relative;
+    padding-left: 10px;
+    color: #6c757d;
+    border-left: 3px solid #ff0000;
+  }
+  .section-about__blockquote::before  {
+    content: '\201E';
+    position: absolute;
+    top: -70px;
+    left: -50px;
+    font-size: 5rem;
+    line-height: 100%;
+    color: red;
+  }
+
+  .section-about__blockquote::after  {
+    content: '\201C';
+    position: absolute;
+    bottom: -70px;
+    right: -25px;
+    font-size: 5rem;
+    line-height: 100%;
+    color: red;
+  }
   /*------------blog------------*/
+  /*------------contacts------------*/
+
+  .section-contacts__title  {
+    text-align: center;
+  }
+
+  .section-contacts__descr  {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .contact-form {
+    padding: 20px 50px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+
+  .contact-form__input  {
+    padding-left: 1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
 
   
